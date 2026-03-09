@@ -1,0 +1,5 @@
+datasets/
+images/
+power bi dashboard/
+*.pbix
+*.csv
