@@ -1,5 +1,5 @@
-datasets/
-images/
+Datasets/
+Images/
 power bi dashboard/
 *.pbix
 *.csv
