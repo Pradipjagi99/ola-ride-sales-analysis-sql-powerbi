@@ -135,6 +135,8 @@ FROM
     Successful_Bookings;
 ---
 
+---
+
 ![Description of the screenshot](https://github.com/Pradipjagi99/ola-ride-sales-analysis-sql-powerbi/blob/main/images/Q1.png)
 
 ---
