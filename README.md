@@ -102,39 +102,20 @@ To work with the database, we first need to import the data from the `Untitled s
 
 **📝 Query:**
 
-```sql
-SELECT 
-    *
-FROM
-    ola_bookings
-WHERE
-    Booking_Status = 'Success';
-    
--- we can create a " view " to find directly the successful bookings. so that instead of long query we can find the output in smaller query-- 
--- Created view with name Successful_Bookings -- 
+```sql   
 CREATE VIEW Successful_Bookings AS
     SELECT 
         *
-    FROM
-        ola_bookings
-    WHERE
-        Booking_Status = 'Success';  
+    FROM ola_bookings
+    WHERE Booking_Status = 'Success';  
 -- output with using view --      
-SELECT          
-    *
-FROM
-    Successful_Bookings;     
+SELECT * FROM Successful_Bookings;     
 ---
 
 **📊 Answer:**
 
----sql
-SELECT          
-    *
-FROM
-    Successful_Bookings;
----
-
+```sql
+SELECT  * FROM Successful_Bookings;
 ---
 
 ![Description of the screenshot](https://github.com/Pradipjagi99/ola-ride-sales-analysis-sql-powerbi/blob/main/images/Q1.png)
