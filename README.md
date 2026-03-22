@@ -104,15 +104,14 @@ To work with the database, we first need to import the data from the `Untitled s
 
 ```sql   
 CREATE VIEW Successful_Bookings AS
-    SELECT *
-    FROM ola_bookings
+    SELECT * FROM ola_bookings
     WHERE Booking_Status = 'Success';      
     
 **📊 Answer:**
 
 ```sql
 SELECT  * FROM Successful_Bookings;
----
+```
 
 ![Description of the screenshot](https://github.com/Pradipjagi99/ola-ride-sales-analysis-sql-powerbi/blob/main/images/Q1.png)
 
@@ -122,17 +121,18 @@ SELECT  * FROM Successful_Bookings;
 
 **📝 Query:**
 
----sql
-SELECT 
-    Vehicle_Type,
-    ROUND(AVG(Ride_Distance), 2) AS average_ride_distance
-FROM
-    ola_bookings
+```sql
+CREATE VIEW ride_distance_for_each_vehicle AS
+SELECT Vehicle_Type, AVG(Ride_Distance) AS avg_distance
+FROM bookings
 GROUP BY Vehicle_Type;
----
+```
 
 **📊 Answer:**
----
+
+```sql
+SELECT * FROM ride_distance_for_each_vehicle;
+```
 
 ![Description of the screenshot](https://github.com/Pradipjagi99/ola-ride-sales-analysis-sql-powerbi/blob/main/images/Q2.png)
 
