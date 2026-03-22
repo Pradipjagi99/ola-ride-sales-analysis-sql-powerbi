@@ -104,14 +104,10 @@ To work with the database, we first need to import the data from the `Untitled s
 
 ```sql   
 CREATE VIEW Successful_Bookings AS
-    SELECT 
-        *
+    SELECT *
     FROM ola_bookings
-    WHERE Booking_Status = 'Success';  
--- output with using view --      
-SELECT * FROM Successful_Bookings;     
----
-
+    WHERE Booking_Status = 'Success';      
+    
 **📊 Answer:**
 
 ```sql
