@@ -325,14 +325,17 @@ WHERE
 
 ---
 
+## File Details 📁
 
+- **File Name**: `ola project.sql` [Download File](https://github.com/Pradipjagi99/ola-ride-sales-analysis-sql-powerbi/blob/main/sql%20query/postgresql/ola%20project.sql)
+- **Size**: `4 KB`
 
+- **File Name**: `Untitled spreadsheet - July.csv` [Download File](https://github.com/Pradipjagi99/ola-ride-sales-analysis-sql-powerbi/blob/main/Datasets/Untitled%20spreadsheet%20-%20July.csv)
+- **Size**: `15.5 MB`
 
+</details>
 
-
-
-
-
+---
 
 
 
