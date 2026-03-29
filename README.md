@@ -142,14 +142,14 @@ SELECT * FROM ride_distance_for_each_vehicle;
 
 **📝 Query:**
 
----sql
+```sql
 SELECT 
     COUNT(*) as cancelled_rides_by_customers
 FROM
     ola_bookings
 WHERE
     Booking_Status = 'Canceled by Customer';
----
+```
 
 **📊 Answer:**
 ---
@@ -162,7 +162,7 @@ WHERE
 
 **📝 Query:**
 
----sql
+```sql
 SELECT 
     Customer_ID, COUNT(Booking_ID) AS rides
 FROM
@@ -170,7 +170,7 @@ FROM
 GROUP BY Customer_ID
 ORDER BY rides DESC
 LIMIT 5;
----
+```
 
 **📊 Answer:**
 ---
@@ -183,14 +183,14 @@ LIMIT 5;
 
 **📝 Query:**
 
----sql
+```sql
 SELECT 
     COUNT(*) as  Canceled_Rides_by_Driver
 FROM
     ola_bookings
 WHERE
     Canceled_Rides_by_Driver = 'Personal & Car related issue';
----
+```
 
 
 **📊 Answer:**
@@ -205,7 +205,7 @@ WHERE
 
 **📝 Query:**
 
----sql
+```sql
 SELECT 
     Vehicle_Type,
     MAX(Driver_Ratings) AS max_rating,
@@ -214,7 +214,7 @@ FROM
     ola_bookings
 WHERE
     Vehicle_Type = 'Prime Sedan';
----
+```
 
 **📊 Answer:**
 ---
@@ -227,14 +227,14 @@ WHERE
 
 **📝 Query:**
 
----sql
+```sql
 SELECT 
     *
 FROM
     ola_bookings
 WHERE
     Payment_Method = 'UPI';
----
+```
 
 **📊 Answer:**
 ---
@@ -247,7 +247,7 @@ WHERE
 
 **📝 Query:**
 
----sql
+```sql
 SELECT 
     Vehicle_Type,
     ROUND(AVG(Customer_Rating), 2) AS avg_cus_rating
@@ -255,7 +255,7 @@ FROM
     ola_bookings
 GROUP BY Vehicle_Type
 ORDER BY avg_cus_rating DESC;
----
+```
 
 **📊 Answer:**
 ---
@@ -268,14 +268,14 @@ ORDER BY avg_cus_rating DESC;
 
 **📝 Query:**
 
----sql
+```sql
 SELECT 
     SUM(Booking_Value) AS total_booking_value
 FROM
     ola_bookings
 WHERE
     Booking_Status = 'Success';
----
+```
 
 **📊 Answer:**
 ---
@@ -288,14 +288,14 @@ WHERE
 
 **📝 Query:**
 
----sql
+```sql
 ELECT 
     Booking_ID, Incomplete_Rides_Reason
 FROM
     ola_bookings
 WHERE
     Incomplete_Rides = 'Yes';
----
+```
 
 **📊 Answer:**
 ---
