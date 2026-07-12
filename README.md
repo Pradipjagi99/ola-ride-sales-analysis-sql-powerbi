@@ -492,7 +492,13 @@ For any queries or feedback, feel free to reach out:
 
 A big shoutout to [Top VarSity](https://www.youtube.com/@TopVarSity) for their helpful tutorial that guided this project. A heartfelt thanks to Top VarSity for sharing valuable insights in their YouTube video tutorial, which can be found [here](https://www.youtube.com/watch?si=29Ikp70AdbmvziIh&v=1uPUyT9LoHQ&feature=youtu.be). Your content played a significant role in shaping the success of this project!
 
+---
 
+## 🔗 Links
+ 
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jagipradiprao/)
+
+---
 
 
 
